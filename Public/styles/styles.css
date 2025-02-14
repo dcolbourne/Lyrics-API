@@ -1,5 +1,5 @@
 .bg-image {
-    background-image: url("images/turntable.jpg");
+    background-image: url("/images/turntable.jpg");
     object-fit: contain;
     height: 85vh;
     white-space: pre-wrap;
