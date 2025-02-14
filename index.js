@@ -5,11 +5,8 @@ import bodyParser from "body-parser";
 const app = express();
 const port = 3000;
 const API_URL = "https://api.lyrics.ovh/v1/";
-const path = require('path');
 
-app.use('/static', express.static(path.join(__dirname, 'Public')));
-app.use('/styles', express.static(path.join(__dirname, 'Public/styles')));
-app.use('/images', express.static(path.join(__dirname, 'Public/images')));
+app.use(express.static("Public"));
 app.use(bodyParser.urlencoded({ extended: true }));
 
 app.get("/", (req, res) => {
