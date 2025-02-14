@@ -17,17 +17,6 @@ app.get("/", (req, res) => {
      });
   });
 
-// app.get("/", async (req, res) => {
-//     try {
-//         const result = await axios.get(API_URL + "Pearl Jam/Black");
-//         const lyricString = result.data.lyrics;
-//         res.render("index.ejs", { content: lyricString });
-//     } catch (error) {
-//         console.log(error.response.data);
-//         res.status(500);
-//         };
-// });
-
 app.post("/lyrics", async (req, res) => {
     try {
         console.log(req.body)
