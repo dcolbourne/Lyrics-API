@@ -16,8 +16,6 @@ label,input,footer {
 }
 
 em {
-    /* color: black; 
-    text-shadow: 2px 2px 5px; */
     color: white;
     text-shadow: 1px 1px 2px black, 0 0 25px grey, 0 0 5px rgb(152, 185, 87);
 }
