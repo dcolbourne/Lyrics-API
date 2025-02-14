@@ -1,0 +1,23 @@
+.bg-image {
+    background-image: url("/images/turntable.jpg");
+    object-fit: contain;
+    height: 85vh;
+    white-space: pre-wrap;
+    overflow: auto;
+}
+
+a {
+    font-size: 1.5rem;
+    text-shadow: 1px 1px 3px; 
+}
+
+label,input {
+    text-shadow: 1px 1px 2px; 
+}
+
+em {
+    /* color: black; 
+    text-shadow: 2px 2px 5px; */
+    color: white;
+    text-shadow: 1px 1px 2px black, 0 0 25px grey, 0 0 5px rgb(152, 185, 87);
+}
