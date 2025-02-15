@@ -2,7 +2,7 @@ backend:
     functions:
         - entry: index.js
           handler: handler
-          name: express
+          name: function-express
           path: .
           type: httpServer
     language:
