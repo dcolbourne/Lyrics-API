@@ -6,14 +6,14 @@ const app = express();
 const port = 3000;
 const API_URL = "https://api.lyrics.ovh/v1/";
 
-app.use(express.static("public"));
+app.use(express.static("Public"));
 app.use(bodyParser.urlencoded({ extended: true }));
 
 app.get("/", (req, res) => {
     res.render("index.ejs", { 
-        content: "Waiting for you to submit band and song name data...",
-        band: "",
-        song: ""
+        content: "",
+        band: "Waiting for you to ",
+        song: "submit band and song name data..."
      });
   });
 
